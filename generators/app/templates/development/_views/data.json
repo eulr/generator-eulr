@@ -1,0 +1,10 @@
+{
+  "url": {
+    "root": "/",
+    "assets": "/assets/",
+    "image": "/assets/images/",
+    "css": "/assets/styles/",
+    "js": "/assets/scripts/",
+    "vendor": "/vendor/"
+  }
+}

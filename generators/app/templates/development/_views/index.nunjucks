@@ -1,0 +1,5 @@
+{# index.nunjucks #}
+{% extends "layout.nunjucks" %}
+{% block yield %}
+  <h1>Yep, finally.</h1>
+{% endblock %}

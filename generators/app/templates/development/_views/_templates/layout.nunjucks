@@ -1,0 +1,14 @@
+{# layout.nunjucks #}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="{{url.css}}/styles.css">
+</head>
+<body>
+  {% block yield %}{% endblock %}
+  <script src="{{url.vendor}}/jquery/dist/jquery.js"></script>
+  <script src="{{url.js}}/main.js"></script>
+</body>
+</html>
